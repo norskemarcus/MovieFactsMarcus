@@ -18,12 +18,13 @@ public class MovieRepository {
             while (input.hasNextLine()){
                 //her skal den enkelte linie behandles og movies oprettes
                 //men vi skriver bare ud...
-                System.out.println(input.next());
+                System.out.println(input.nextLine());
             }
 
         } catch (IOException e) {
             System.out.println("Error reading file: " + e);
         }
+        //her skal returneres movies
         return "her skal filmene komme";
     }
 }

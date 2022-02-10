@@ -12,7 +12,7 @@ public class MovieController {
         return "forklaring på siden";
     }
 
-    @GetMapping("findall")
+    @GetMapping("/findall")
     public String findall(){
         MovieRepository movieRepository = new MovieRepository();
         return movieRepository.findAll();
